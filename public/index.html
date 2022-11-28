@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://unpkg.com/brain.js"></script>
+
+    <title>Emotion Detection</title>
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-6">
+                <div class="input-group mb-3">
+                    <input id="inputBox" type="text" class="form-control" placeholder="Type Something..."
+                        aria-label="Type Something..." aria-describedby="button-addon2">
+                    <button class="btn btn-outline-primary" type="button" id="button-addon2">Detect</button>
+                </div>
+                <div class="card d-flex justify-content-center align-items-center">
+                    <div id="NetworkDiag" class="card-img-top"></div>
+                    <div class="card-body" id="cardBox">
+                        <p class="card-text">Give me some Challenge 🤖...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="src/trainingDataSet.json"></script>
+    <script src="src/App.js"></script>
+
+</body>
+
+</html>
