@@ -3,25 +3,28 @@
     "version": "1.0.0",
     "private": false,
     "dependencies": {
-      "prop-types": "^15.6.2",
-      "react": "^16.5.2",
-      "react-dom": "^16.5.2",
-      "react-scripts": "2.0.4",
-      "react-transition-group": "^1.2.1"
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@mui/material": "^5.10.16",
+        "prop-types": "^15.6.2",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "react-scripts": "2.0.4",
+        "react-transition-group": "^1.2.1"
     },
     "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
     },
     "eslintConfig": {
-      "extends": "react-app"
+        "extends": "react-app"
     },
     "browserslist": [
-      ">0.2%",
-      "not dead",
-      "not ie <= 11",
-      "not op_mini all"
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
     ]
-  }
+}
